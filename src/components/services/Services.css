@@ -1,0 +1,27 @@
+/* Services */
+.services-content
+{
+  padding-bottom: 2.5rem;
+}
+
+.services .item-list
+{
+  gap: 3rem;
+}
+
+/* viewports */
+@media screen and (min-width: 768px)
+{
+  .services .item-list
+  {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px)
+{
+  .services .item-list
+  {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

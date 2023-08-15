@@ -1,0 +1,55 @@
+/* Collapsible */
+.features .item-head
+{
+  padding: 1.8rem 2.8rem;
+  cursor: pointer;
+  align-items: center;
+  position: relative;
+}
+
+.features .item-head::after{
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0%;
+  height: .5rem;
+  background: rgba(87, 100, 222, 1);
+  background: linear-gradient(45deg, rgba(87, 100, 222, 1) 0%, rgba(85, 179, 213, 1) 100%);
+  transition: all 300ms linear;
+}
+
+.features .item-head:hover::after
+{
+  width: 100%;
+}
+
+.features .item-body
+{
+  margin-top: 1.6rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 500ms linear;
+}
+
+.features .item-body-show
+{
+  max-height: 35rem;
+}
+
+.features .item-body .text
+{
+  padding-bottom:1.6rem;
+}
+
+.features .item-icon
+{
+  align-items: center;
+  transition: var(--transition);
+}
+
+.features .item-icon-rotate
+{
+  transform: rotate(45deg);
+}

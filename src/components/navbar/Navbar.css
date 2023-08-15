@@ -1,0 +1,213 @@
+/* Navbar */
+.navbar
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 7.8rem;
+  background-color: var(--color-black);
+  z-index: 999;
+}
+
+
+/* Navbar content */
+
+/* left side: brand, and hamburger menu*/
+.hamburger-menu
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 3.4rem;
+  height: 2.6rem;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.bar-top,
+.bar-middle,
+.bar-bottom
+{
+  height: .3rem;
+  background-color: var(--color-white);
+  transform-origin: left;
+  transition: var(--transition);
+}
+
+.hamburger-menu-change .bar-top
+{
+  transform: rotate(42deg);
+}
+
+.hamburger-menu-change .bar-middle
+{
+  transform: translateX(1rem);
+  opacity: 0;
+}
+
+.hamburger-menu-change .bar-bottom
+{
+  transform: rotate(-42deg);
+}
+
+
+/* right side: main menu and social icons menu */
+.navbar-collapse
+{
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: var(--color-dark);
+  height: 100%;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, .24) 0 .3rem .8rem;
+  transform: translateX(100%);
+  transition: var(--transition);
+}
+
+.show-navbar-collapse
+{
+  transform: translateX(0);
+}
+
+.navbar-collapse-content
+{
+  padding: 5rem 4rem;
+  min-height: auto;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.navbar-collapse-content::-webkit-scrollbar {
+  width: 0;
+}
+
+.navbar-collapse-content::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.navbar-collapse-content::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.navbar-nav
+{
+  margin-bottom: 3rem;
+}
+
+.navbar-nav li
+{
+  margin: 2rem 0;
+  font-size: 2rem;
+  transition: var(--transition);
+}
+
+.navbar-nav li:hover,
+.navbar-social li:hover
+{
+  color: var(--color-robin-blue);
+}
+
+.navbar-social li
+{
+  margin-right: 1.2rem;
+  font-size: 2.4rem;
+}
+
+.navbar-btns
+{
+  overflow-y: hidden;
+  margin-top: 2.4rem;
+}
+
+.navbar-btns button
+{
+  border: .2rem solid var(--color-robin-blue);
+  transition: var(--transition);
+}
+
+.navbar-btns button:hover
+{
+  background-color: var(--color-robin-blue);
+}
+
+.navbar-btns button span
+{
+  margin-left: .8rem;
+}
+
+
+/* viewports */
+@media screen and (min-width: 578px)
+{
+  .navbar-collapse
+  {
+    width: 32rem;
+  }
+}
+
+@media screen and (min-width: 992px)
+{
+  .hamburger-menu
+  {
+    display: none;
+  }
+
+  .navbar-collapse
+  {
+    transform: translateX(0);
+    position: relative;
+    background-color: transparent;
+    box-shadow: none;
+    top: 0;
+    height: auto;
+    width: 100%;
+  }
+
+  .navbar-collapse-content
+  {
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-nav
+  {
+    display: flex;
+    margin-bottom: 0;
+  }
+
+  .navbar-nav li
+  {
+    margin: 0;
+    font-size: 1.9rem;
+    font-weight: 500;
+    margin-right: 3.6rem;
+  }
+
+  .navbar-nav li:hover,
+  .navbar-social li:hover
+  {
+    color: var(--color-crazy-blue)
+  }
+
+  .navbar-social
+  {
+    margin-left: 6rem;
+  }
+
+  .navbar-social li a
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+  }
+
+  .navbar-btns
+  {
+    margin-top: 0;
+    margin-left: 2.8rem;
+  }
+
+}

@@ -1,0 +1,42 @@
+/* card */
+.services .item
+{
+  padding: 4rem;
+  cursor: pointer;
+  transition: var(--transition);
+  position: relative;
+}
+
+.services .item::after{
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0%;
+  height: .5rem;
+  background: rgba(87, 100, 222, 1);
+  background: linear-gradient(45deg, rgba(87, 100, 222, 1) 0%, rgba(85, 179, 213, 1) 100%);
+  transition: var(--transition);
+}
+
+.services .item:hover::after{
+  width: 100%;
+}
+
+.services .item-icon
+{
+  font-size: 4.5rem;
+}
+
+.services .item-link
+{
+  margin-top: 1.8rem;
+  display: inline-block;
+  transition: var(--transition);
+}
+
+.services .item:hover .item-link
+{
+  color: var(--color-white);
+}

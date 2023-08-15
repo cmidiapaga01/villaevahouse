@@ -1,0 +1,49 @@
+/* header */
+.header
+{
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0 ,.9), rgba(0, 0, 0 ,.9)), url('../../assets/images/header_main_img.jpg') center/cover no-repeat;
+  padding: 8rem 0;
+}
+
+
+/* header content */
+.header-title
+{
+  font-size: 4.5rem;
+  line-height: 1.2;
+  background: linear-gradient(to right, var(--color-robin-blue), var(--color-crazy-blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -o-background-clip: text;
+  -o-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.header-content .text-lead
+{
+  margin: 3.2rem 0 4.9rem 0;
+}
+
+.header-btn span
+{
+  margin-left: 1rem;
+}
+
+
+/* viewports */
+@media screen and (min-width: 600px)
+{
+  .header-content *
+  {
+    max-width: 92rem;
+  }
+
+  .header-title
+  {
+    font-size: 8.8rem;
+  }
+}

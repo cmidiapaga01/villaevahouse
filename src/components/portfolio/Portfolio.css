@@ -1,0 +1,85 @@
+/* Portfolio */
+.portfolio .item-list
+{
+  margin-top: 4rem;
+  gap: 4rem;
+}
+
+.portfolio .item
+{
+  height: 42rem;
+  position: relative;
+  padding: 0 4rem;
+  cursor: pointer;
+  transition: var(--transition);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.portfolio .item *
+{
+  z-index: 1;
+}
+
+.portfolio .item::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgb(87, 100, 222);
+  background: linear-gradient(45deg, rgba(87, 100, 222, .6) 0%, rgba(85, 179, 213, .7) 100%);
+  left: 0;
+  top: 0;
+}
+
+.portfolio .item-title
+{
+  border-bottom: .1rem solid var(--color-white);
+  padding-bottom: 2rem;
+}
+
+/* Viewports */
+@media screen and (min-width: 768px)
+{
+  .portfolio .section-t
+  {
+    text-align: center;
+  }
+
+  .portfolio .section-t::before
+  {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .portfolio .item-list
+  {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px)
+{
+  .portfolio .item-list
+  {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .portfolio .item *
+  {
+    opacity: 0;
+    transition: var(--transition);
+  }
+
+  .portfolio .item::after
+  {
+    opacity: 0;
+    transition: var(--transition);
+  }
+
+  .portfolio .item:hover *,
+  .portfolio .item:hover::after
+  {
+    opacity: 1;
+  }
+}

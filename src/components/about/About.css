@@ -1,0 +1,29 @@
+/* About */
+.about-content
+{
+  gap: 4rem;
+}
+
+.mb-1
+{
+  margin-bottom: 1.5rem;
+}
+
+/* viewports */
+@media screen and (min-width: 768px)
+{
+  .about-content
+  {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 992px)
+{
+  .about-content
+  {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 6rem;
+  }
+}
