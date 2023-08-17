@@ -2,7 +2,7 @@ import React from "react";
 import "./Contact.css";
 import formImage from "../../assets/images/form_main_img.jpg";
 import { Formik } from "formik";
-import Map from "./Map";
+import Map from "../Map/Map";
 import Channnels from "./Channnels";
 
 const Contact = () => {
