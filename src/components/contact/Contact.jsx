@@ -2,7 +2,7 @@ import React from "react";
 import "./Contact.css";
 import formImage from "../../assets/images/form_main_img.jpg";
 import { Formik } from "formik";
-import Map from "../Map/Map";
+import Map from "./Map";
 import Channnels from "./Channnels";
 
 const Contact = () => {
@@ -12,10 +12,9 @@ const Contact = () => {
         <div className="contact-content grid text-center">
           <div className="contact-left">
             <div className="section-t">
-              <h3>let's talk</h3>
+              <h3>Fale com a gente!</h3>
               <p className="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                accusantium aspernatur minus soluta totam omnis.
+                Responderemos sua mensagem o mais rápido possível (até o fim do dia)
               </p>
             </div>
             <Formik
@@ -60,7 +59,7 @@ const Contact = () => {
                   <div className="form-element">
                     <div className="form-field flex flex-column">
                       <label htmlFor="name" className=" text-white">
-                        Name:
+                        Nome:
                       </label>
                       <input
                         type="text"
@@ -102,7 +101,7 @@ const Contact = () => {
                   <div className="form-element">
                     <div className="form-field flex flex-column">
                       <label htmlFor="message" className="text-white">
-                        Message
+                        Mensagem:
                       </label>
                       <textarea
                         name="message"
@@ -121,7 +120,7 @@ const Contact = () => {
                       className="submit-btn text-upper"
                       disabled={isSubmitting}
                     >
-                      contact us
+                      Enviar
                     </button>
                   </div>
                 </form>
@@ -140,4 +139,3 @@ const Contact = () => {
 };
 
 export default Contact;
-//1:26:37
