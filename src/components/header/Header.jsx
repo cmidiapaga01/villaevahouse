@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import Navbar from "../navbar/Navbar";
-import { FaPaperPlane } from "react-icons/fa";
+import { FaAngleDown } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -11,13 +11,11 @@ const Header = () => {
         <div className="header-content text-center flex flex-column">
           <h1 className="text-upper header-title fw-9">Villa Eva</h1>
           <p className="text-lead">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque
-            odio ratione ipsum consequatur recusandae, obcaecati minus?
-            Doloremque, perferendis.
+            FALTA: (Inserir contador) para o evento X
           </p>
           <a href="/" className="btn header-btn btn-blue">
-            <FaPaperPlane/>
-            <span>get started</span>
+            <FaAngleDown/>
+            <span>Reservar Agora</span>
           </a>
         </div>
       </div>

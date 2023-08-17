@@ -8,20 +8,21 @@ import Qualities from "./components/qualities/Qualities";
 import Features from "./components/features/Features";
 import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
-import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import Map from "./components/Map/Map"
+import Carrousel from "./components/carrousel/Carrousel"
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Services />
+      <Carrousel />
       <About />
       <Qualities />
       <Features />
-      <Portfolio />
       <Testimonials />
-      <Contact />
+      <Map />
       <Footer/>
     </div>
   );

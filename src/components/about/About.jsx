@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import aboutImage from "../../assets/images/about_main_img.jpg";
+import aboutImage from "../../assets/images/img_2.jpg";
 
 const About = () => {
   return (
@@ -8,23 +8,25 @@ const About = () => {
       <div className="container">
         <div className="about-content grid text-center">
           <div className="content-left">
-            <img src={aboutImage} alt="About Solnhub" />
+            <img src={aboutImage} alt="Onde estamos" />
           </div>
           <div className="content-right text-white">
             <div className="section-t">
-              <h3>About Us</h3>
+              <h3>Onde estamos?</h3>
             </div>
             <p className="text mb-1">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              ad expedita rem illo repudiandae vel quis illum nesciunt quod
-              reprehenderit, assumenda tempora aspernatur voluptate est deleniti
-              nisi accusantium. Recusandae sunt eius natus praesentium quod
-              culpa enim dolorum modi et, hic voluptas reprehenderit inventore
-              velit. Deserunt id consectetur laboriosam accusamus tenetur?
+            A Villa Eva House é uma propriedade com área de praia privativa situada em Beberibe,
+            a 200 metros da Praia das Fontes, a 2,2 km da Praia do Diogo e a 6 km da Igreja Matriz.
+            Situada à beira-mar, esta propriedade dispõe de piscina ao ar livre, jardim e terraço.
+
+            Esta casa de temporada de 6 quartos dispõe de sala de estar com TV de tela plana, 
+            cozinha totalmente equipada e 8 banheiros. Para sua comodidade, a casa de temporada oferece estacionamento
+            privativo gratuito.
+
+            O aeroporto mais próximo é o Aeroporto de Aracati, a 73 km da Villa Eva House.
             </p>
             <p className="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-              et qui minima, tempore aliquid placeat!
+              Adicionar informação complementar
             </p>
           </div>
         </div>
