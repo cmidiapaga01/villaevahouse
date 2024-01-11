@@ -9,13 +9,13 @@ const Header = () => {
       <Navbar />
       <div className="container">
         <div className="header-content text-center flex flex-column">
-          <h1 className="text-upper header-title fw-9">Villa Eva</h1>
+          <h1 className="text-upper header-title fw-9">BB Tirana</h1>
           <p className="text-lead">
-            FALTA: (Inserir contador) para o evento X
+             
           </p>
           <a href="/" className="btn header-btn btn-blue">
             <FaAngleDown/>
-            <span>Reservar Agora</span>
+            <span>Book now</span>
           </a>
         </div>
       </div>

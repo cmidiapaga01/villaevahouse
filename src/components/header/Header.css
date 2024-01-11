@@ -2,7 +2,7 @@
 .header
 {
   min-height: 100vh;
-  background: url('../../assets/images/img_1.jpg') center/cover no-repeat;
+  background: url('../../assets/images/IMG_3932.jpg') center/cover no-repeat;
   padding: 8rem 0;
 }
 
@@ -12,7 +12,7 @@
 {
   font-size: 4.5rem;
   line-height: 1.2;
-  background: linear-gradient(to right, var(--color-robin-blue), var(--color-crazy-blue));
+  background: linear-gradient(to right, var(--color-black), var(--color-crazy-blue));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;

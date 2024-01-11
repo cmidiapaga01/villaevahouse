@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container flex flex-center w-100">
         <div className="footer-content grid text-center">
           <p className="text">
-            Villa Eva House Beberibe. Todos os direitos reservados.
+            BBTirana. All rights reserved.
             <br />
             <span className="text">
               &copy; {date.getFullYear()}
