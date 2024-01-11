@@ -10,7 +10,7 @@ const Qualities = () => {
         <div className="qualities-content grid">
           <div className="content-left">
             <div className="text-center section-t">
-              <h3 className="text-cap">we are profesionals</h3>
+              <h3 className="text-cap">Luxury Apartment</h3>
               <p className="text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
                 quia, eveniet voluptatem corporis id ipsa!

@@ -27,52 +27,52 @@ export const services = [
   {
     id: 1,
     icon: <FaPaperPlane style={{ fill: gradient }} />,
-    title: "Digital Marketing",
+    title: "Wi-fi",
     text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing",
   },
   {
     id: 2,
     icon: <BiDollarCircle style={{ fill: gradient }} />,
-    title: "Trade Shows",
+    title: "Complete Kitchen",
     text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing",
   },
   {
     id: 3,
     icon: <FaRocket style={{ fill: gradient }} />,
-    title: "Branding",
+    title: "Washing machine",
     text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing",
   },
   {
     id: 4,
     icon: <FaEdit style={{ fill: gradient }} />,
-    title: "Content Creation",
+    title: "TV",
     text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing",
   },
   {
     id: 5,
     icon: <ImMagicWand style={{ fill: gradient }} />,
-    title: "Grpahic Design",
+    title: "Air Conditioner",
     text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing",
   },
-  {
-    id: 6,
-    icon: <FaShoppingCart style={{ fill: gradient }} />,
-    title: "Media Buying",
-    text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing",
-  },
+  // {
+  //   id: 6,
+  //   icon: <FaShoppingCart style={{ fill: gradient }} />,
+  //   title: "Media Buying",
+  //   text: "Lorem ipsum dolor sit mattis amet consectetur adipiscing",
+  // },
 ];
 
 export const qualities = [
   {
     id: 1,
     icon: <FaFileAlt style={{ fill: gradient }} />,
-    title: "Ideas & Plans",
+    title: "Stay on the best!",
     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod.",
   },
   {
     id: 2,
     icon: <AiOutlineReload style={{ fill: gradient }} />,
-    title: "Prompt Strategies",
+    title: "Affordable and Cool",
     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod.",
   },
 ];
@@ -80,32 +80,32 @@ export const qualities = [
 export const features = [
   {
     id: 1,
-    title: "Digital Marketing",
+    title: "Question 1",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc.",
   },
   {
     id: 2,
-    title: "Trade Shows",
+    title: "Question 2",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc.",
   },
   {
     id: 3,
-    title: "Branding",
+    title: "Question 3",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc.",
   },
   {
     id: 4,
-    title: "Content Creation",
+    title: "Question 4",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc.",
   },
   {
     id: 5,
-    title: "Graphic Design",
+    title: "Question 5",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc.",
   },
   {
     id: 6,
-    title: "Media Buying",
+    title: "Question 6",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et elit vitae lectus convallis scelerisque. Cras vestibulum blandit lorem, at fringilla nisl sollicitudin ac. Nunc venenatis nec neque sed semper. Mauris viverra, sapien sed fringilla egestas, sem felis condimentum augue, vitae sodales sem metus in ex. Aenean massa velit, sollicitudin quis elementum sit amet, vehicula sed nunc.",
   },
 ];

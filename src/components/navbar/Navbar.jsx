@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="navbar-content flex fw-7">
           <div className="brand-and-toggler flex flex-between w-100">
             <Link to="/" className="navbar-brand fs-26 text-white">
-              VillaEva
+              BB Tirana
             </Link>
             <div
               type="button"
@@ -52,7 +52,7 @@ const Navbar = () => {
                   <Link to="/">pricing</Link>
                 </li>
                 <li>
-                  <Link to="/">contacts</Link>
+                  <Link to="/">contact</Link>
                 </li>
               </ul>
               <ul className="navbar-social flex text-white">
@@ -87,7 +87,7 @@ const Navbar = () => {
               <div className="navbar-btns">
                 <button type="button" className="btn">
                   <IoMdRocket />
-                  <span>get started</span>
+                  <span>Check availability</span>
                 </button>
               </div>
             </div>

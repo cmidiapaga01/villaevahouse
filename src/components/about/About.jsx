@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import aboutImage from "../../assets/images/img_2.jpg";
+import aboutImage from "../../assets/images/img_2.png.jpg";
 
 const About = () => {
   return (
@@ -12,21 +12,13 @@ const About = () => {
           </div>
           <div className="content-right text-white">
             <div className="section-t">
-              <h3>Onde estamos?</h3>
+              <h3>How to find us</h3>
             </div>
             <p className="text mb-1">
-            A Villa Eva House é uma propriedade com área de praia privativa situada em Beberibe,
-            a 200 metros da Praia das Fontes, a 2,2 km da Praia do Diogo e a 6 km da Igreja Matriz.
-            Situada à beira-mar, esta propriedade dispõe de piscina ao ar livre, jardim e terraço.
-
-            Esta casa de temporada de 6 quartos dispõe de sala de estar com TV de tela plana, 
-            cozinha totalmente equipada e 8 banheiros. Para sua comodidade, a casa de temporada oferece estacionamento
-            privativo gratuito.
-
-            O aeroporto mais próximo é o Aeroporto de Aracati, a 73 km da Villa Eva House.
+            The apartment has a modern style, just finished from the renovation. It has everything for a comfortable and modern life. The location is perfect in a building which is a cultural monument on the 4th floor, near Skenderbej Square, the national museums, the AirAlbania Stadium, and all the institutions. All the best bars and restaurants of the city are located less than 100 meters from the apartment
             </p>
             <p className="text">
-              Adicionar informação complementar
+             Why staying here?
             </p>
           </div>
         </div>
