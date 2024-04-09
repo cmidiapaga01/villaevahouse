@@ -13,6 +13,13 @@ import Map from "./components/Map/Map"
 import Carrousel from "./components/carrousel/Carrousel"
 
 function App() {
+  const tagManagerArgs = {
+    gtmId: 'GTM-NGX48X27' // Substitua pelo seu ID de contêiner do Google Tag Manager
+  };
+
+  // Inicialize o Google Tag Manager
+  TagManager.initialize(tagManagerArgs);
+
   return (
     <div className="App">
       <Header />
@@ -23,7 +30,7 @@ function App() {
       <Features />
       <Testimonials />
       <Map />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
